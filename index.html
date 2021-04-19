@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @font-face {
+    font-family: "SourceCodePro";
+    src: url(" https://files.cargocollective.com/757295/sansserif_100.ttf");
+  }
+  body{
+    font-family: SourceCodePro;
+	  color: #333;
+  }
+  h1{
+    color:#777;
+  }
+  h3{
+    color:#555;
+  }
+  .grid-item{
+    font-size:20px;
+    margin: 1px;
+
+    padding:10px;
+    radius:5px;
+    border: 1px solid #faf0fa;
+    border-radius: 5px;
+  }
+  .didascalia{
+    font-size:10px;
+    display:block;
+  }
+
+</style>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+</head>
+<body>
+
+<h1></h1>
+<h1> Technology should ... </h1>
+<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+  <div class="grid-item">help us think in 3d <br><img src ="3d.jpg" width="350px"><br><span class="didascalia">Casa Gilardi by Luis Barragan</span></div>
+  <div class="grid-item">help us foster emphaty<br><img src ="lennon.jpg" width="350px"><br><span class="didascalia"></span></div>
+  <div class="grid-item">help us understand complex systems<br><img src ="complexity.jpg" width="350px"><br><span class="didascalia">Jackson Pollock, Number 1, 1950</span></div>
+  <div class="grid-item">help us extend our senses<br><img src ="tentacles-big.jpg" width="350px"><br><span class="didascalia">Portrait from the artwork Veto Vito by Jonathan Harris.</span></div>
+  <div class="grid-item">be long lasting<br><img src ="tree.jpg" width="350px"><br><span class="didascalia"></span></div>
+  <div class="grid-item">be open<br><img src ="multi.jpg" width="350px"><br><span class="didascalia">Metamorphosis by MC Escher</span></div>
+</div>
+
+</body>
+</html>
